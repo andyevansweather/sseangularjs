@@ -1,0 +1,26 @@
+{
+  "name": "angular-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.10",
+    "grunt": "^1.0.2",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "materialize-css": "^0.100.2",
+    "sse": "0.0.8"
+  }
+}
