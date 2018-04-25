@@ -20,6 +20,7 @@
     "grunt-contrib-watch": "^1.0.1",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.5.0",
+    "jade": "^1.11.0",
     "materialize-css": "^0.100.2",
     "sse": "0.0.8"
   }
