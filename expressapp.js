@@ -14,6 +14,24 @@ app.get('/', function(req, res) {
     res.render('vote')
 });
 
+app.get('/stuff', function(req, res) {
+    let thing = {
+        test: 'things'
+    };
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    res.send(JSON.stringify(thing))
+});
+
+app.get('/stufftwo', function(req, res) {
+    let thing = {
+        test: 'things'
+    };
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    res.send(JSON.stringify(thing))
+});
+
 app.get('/result', function(req, res) {
     res.render('result')
 });
