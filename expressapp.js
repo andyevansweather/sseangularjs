@@ -47,9 +47,12 @@ app.get('/vote', function(req, res) {
     res.sendStatus(200);
 });
 
+let count = 0;
+
 app.get('/stream', function(req, res) {
+    count += 1;
     res.sseSetup();
-    res.sseSend(votes);
+    res.sseSend(count);
     connections.push(res);
 });
 
